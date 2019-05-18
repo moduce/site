@@ -2,22 +2,21 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisan-static-demo.netlify.com',
+    'baseUrl' => 'https://www.moduce.com',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => "Moduce's Blog",
+        'description' => 'Personal blog of Khoa Vo.',
         'image' => 'default-share.png',
     ],
     'owner' => [
-        'name' => 'John Doe',
-        'twitter' => 'johndoe',
-        'github' => 'johndoe',
+        'name' => 'Khoa Vo',
+        'github' => 'moduce',
     ],
     'services' => [
-        'analytics' => 'UA-XXXXX-Y',
-        'disqus' => 'artisanstatic',
-        'cloudinary' => 'artisanstatic',
-        'jumprock' => 'artisanstatic',
+        'analytics' => 'UA-140406785-1',
+        'disqus' => 'moduce',
+        'cloudinary' => 'moduce',
+        'jumprock' => 'moduce',
     ],
     'collections' => [
         'posts' => [
